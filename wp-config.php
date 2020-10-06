@@ -26,16 +26,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'panda-press_webpress');
+define('DB_NAME', '');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'panda-press');
+define('DB_USER', '');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'webpress123');
+define('DB_PASSWORD', '');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'mysql439.db.sakura.ne.jp');
+define('DB_HOST', 'db.sakura.ne.jp');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8mb4');
