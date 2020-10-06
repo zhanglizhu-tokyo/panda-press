@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/11/11, 19:38:19
+    Author     : zhanglizhu
+*/
+#single{
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    background: #fff;
+    margin-left: 30px;
+    
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 64px;
+    font-size:100%;
+    margin-bottom: 50px;
+    margin-top: 33px;
+}
+#single h1{
+    font-size: 32px;
+    line-height: 1.6;
+
+    color:black;
+    font-weight:normal;
+}
+#single h2{
+    background:#f7f7f7;
+    border-left:solid #3c86d3 5px;
+    padding:14px 12px;
+    border-bottom:solid 0.5px #dadada;
+    clear:both;
+    margin-right:-15px;
+    margin-left: -15px;
+}
+#single a{
+    color:red;
+    text-decoration: underline;
+}
+.system-post-time::before{
+    content:url("../ico/clander.png");
+}
+.system-post-time time{
+    margin-left: 4px;
+}
+/*#single div.center{
+    text-align: center;
+}*/
+div .surround{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    background: #fff9e5;
+    color: #545454;
+    font-size: 16px;
+    
+}
+/*div .surround .mark{
+    border-left:solid blue 5px;
+    padding:14px 12px;
+    border-bottom:solid 3px #dadada;
+    clear: both;
+}*/
+
+
+#single p{  
+    font-size:15px;
+}
+#single div.code{
+	background-color:#eff0f1;	
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+/*********************/
+#single  span.yellow{
+    background: linear-gradient(transparent 45%, #ff0 0%);
+    font-weight: bold;
+}
+
+#single .arrow_box {
+	position: relative;
+	background: yellow;
+	border-radius: 6px;
+}
+#single h3.arrow_box {padding: 20px 40px; margin-bottom: 40px; border-left: none !important; font-weight: normal;}
+
+#single .arrow_box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(206, 221, 139, 0);
+	border-top-color:yellow;
+	border-width: 20px;
+	margin-left: -20px;
+}
