@@ -3,7 +3,7 @@
 
 既に停止しました。
 
-url       :panda-press.com
+# url       :panda-press.com
 
 
 start time:2017-10
